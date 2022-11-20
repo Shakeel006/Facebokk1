@@ -23,6 +23,7 @@ System.setProperty("webdriver.chrome.driver","C:\\Users\\LENOVO\\eclipse-workspa
 		//to enter url
 		driver.get("https://www.facebook.com/");
 		// to get title
+		System.out.println("new code");
 		String title = driver.getTitle();
 		System.out.println(title);
 		// find location of username
