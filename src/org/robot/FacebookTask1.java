@@ -24,6 +24,7 @@ System.setProperty("webdriver.chrome.driver","C:\\Users\\LENOVO\\eclipse-workspa
 		driver.get("https://www.facebook.com/");
 		// to get title
 		System.out.println("new code");
+		System.out.println(" Conflict changed");
 		String title = driver.getTitle();
 		System.out.println(title);
 		// find location of username
